@@ -1,0 +1,74 @@
+\documentclass[article]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{url}
+
+\title{Week 2. Assignment \\
+\large UCCS CS 6000 Computer Science Research}
+
+\author{Jose Luis Castanon Remy}
+\date{September 2022}
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\section{Research direction}
+During my last working expirience, I have always had the idea that our security systems where in placed but not in the correct way. Similar to a wind power plant, the plant is correctly place in a windy area but if the back of the fan is not correctly placed facing the wind, the blades are nto able to generate any moveoment and as a consecuence no electricity is being drawn from the wind.
+
+Somehow our systems where there, we were able to log information from different sub-systems, but we were not focusing our efforts on the areas that needed more time (at a first glance there was a lot on our plates). For instance, we were not analyzing the collected data from logs an other systems. I always had the feeling that all the security systmes in place were not able to give us the real "whole-picture" of our security status. We ahd different tools giving us different metrics in different places. During my time there, my dutties did not let me think about the key problem behind all that "confussion". In addition to these confussion, we were not able to map all the assets that needed protection. Most of those were newly discovered after we had our tools and myself analyze the architecture and the systems built within the company. 
+
+I feel that companies should have a way to centralize metrics as well as compound a list of assets to be used in different security proceses. One of the questions that comes up is, What metrics need to be centralized? 
+
+Related to this initial idea, comes up the follwoing question, What metrics can show us the real "whole-picture" of our security status? 
+
+In order to get a propper understanding of the initial  direction, I should not be just mapping software but assesing software qualities that can give us a valuable metric pool to measure within software. 
+
+To address the issue, my advisor gave me the hint to research about software maintenance and software maintainability. SW maintenance/ maintainability can lead to specific aspects within SW that can lead to a better understanding of security issues, help detect areas with flaws, etc.
+
+I have compile the following list of papers:
+\cite{alsolai2020systematic}, \cite{khezami2021systematic}, \cite{malhotra2016software}, \cite{malhotra2020systematic}, \cite{tian2021impact} and \cite{riaz2009systematic}.
+Most of the notes are within the printed version of the 4 papers that I have chosen to read. I will be adding the key notes within the bibliography.
+
+\section{Reading}
+From the lsit of papers that I have selected to read, 3 of them are realted to software maintainability and one of those is related to software maintenance. Before getting to the analysis, I should be reading more about software maintenance. I feel that I need to research a little bit more on that direction.
+
+Within the selected papers, published years in descent order are 2021 \cite{khezami2021systematic}, 2020 \cite{malhotra2020systematic}, \cite{alsolai2020systematic} and 2016 \cite{malhotra2016software}. I have read a survey paper about software maintainance from 2009, \cite{riaz2009systematic}, which I found to be very helpful in order to get myself older trends and perspectives.
+
+The most cited paper, currently 55 citations, based on Google Scholar information, is related to software maintainability prediction \cite{alsolai2020systematic}. I think it is a highly cited paper because it contains very helpful components within its organization. It is the only paper that I have read that contains a good process review diagram. There is a data extraction analysis which is directly realted to the researcvh questions. I consider this is very helpful. It is introducing in a simple way the main ideas that the researchers have encountered during the literature review process. In general I got the feeling that everything within this paper is helpful. There is nothing that I feel is useless within this paper. I have not had this "feeling" with the rest of the papers that I have read.
+
+Related to the concepts that were introduced in class, This paper is able to answer to all the Ws. The paper is correctly structured and there are relevant details that help me narrow some of my initial research questions.
+
+The rest of the papers with lower citations, are either too focused on machine leraning methods and prediction algorithms, which I do not feel are going to be helpful right now, or these papers contain useless/ non-structured information. Most of those fail to answer the "for whom" questions specificaly to me.
+
+
+
+\section{Topic map}
+I have built the following topic maps. The first one is the map of the topics coming out from the papers that I have decided to read. These topics are repeated and color-ordered.
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=8.5cm]{topics_per_paper.png}
+    \caption{Topics per paper}
+    \label{fig:topicspp}
+\end{figure}
+
+The second map is an organized map of the first one. It is organized by topic, software maintenance or maintainability, and the topics that came out fromt he previous topic map.
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=8.5cm]{topics.png}
+    \caption{Topics}
+    \label{fig:topics}
+\end{figure}
+
+I have not included in the topic map the gaps that exist. Honestly, I need to read more. I can state that no one is writting about the importance of maintainability within vulnerable sfotware. There is also no one speaking about the influence of maintainance as a metric to be centralized within software based companies. I think these gaps can be addressed in the future.
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\end{document}
